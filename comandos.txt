@@ -54,4 +54,4 @@ git diff
 voltar em uma correção que foi commitada
 git checkout ebfea3b (hash simplificado da correção que eu quero ver)
 git checkout master (retorna a ultima versao do projeto)
- git checkout a.txt (desfaz a ultima alteração)
+git checkout a.txt (desfaz a ultima alteração)
