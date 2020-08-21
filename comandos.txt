@@ -1,0 +1,57 @@
+criar variavel de ambiente
+nome valor
+code C:\Users\Erick Pereira\AppData\Local\Programs\Microsoft VS Code\Code.exe
+
+comandos 
+ls - lista tudo dentro do diretorio
+ls -a - lista diretorios ocultos
+
+mkdir - cria pasta
+touch - cria arquivos
+
+git version
+git config --global user.name "Erick Pereira"
+git config --global user.email "pereira.erick@gmail.com"
+git config --global core.editor "C:\Users\Erick Pereira\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+
+git config user.name
+git config user.email
+git config core.editor
+git status 
+
+Criar repositorio local
+git init
+
+
+Adiconar arquivos
+git add a.txt
+git add * adiciona todos arquivos na pasta
+
+Adicionar aquivos no Contener(Commit)
+git commit -m "Criado os arquivos iniciais" Todos arquivos
+git commit -am "a.txt adicionei a linha entendendo o HEAD "
+
+Clonando repositorio
+
+Logs dos Commits
+git log
+git log --oneline (simplificado)
+git log --graph (verificar em modo grafo)
+git log --oneline --graph (verificar em modo grafo simplificado)
+
+REMOVER quando adiciona arquivos no contener
+git reset HEAD
+
+removendo commit especifico (hash)
+ git reset --hard abd1245
+
+verificar o ramo que o projeto esta
+git branch
+
+verificar as alteraçoes do projeto antes do commit
+git diff
+
+voltar em uma correção que foi commitada
+git checkout ebfea3b (hash simplificado da correção que eu quero ver)
+git checkout master (retorna a ultima versao do projeto)
+ git checkout a.txt (desfaz a ultima alteração)

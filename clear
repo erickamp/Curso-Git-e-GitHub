@@ -1,0 +1,47 @@
+[1mdiff --git a/a.txt b/a.txt[m
+[1mindex 9fd324b..71f2337 100644[m
+[1m--- a/a.txt[m
+[1m+++ b/a.txt[m
+[36m@@ -1,2 +1,3 @@[m
+ teste[m
+[31m-entendendo o head[m
+\ No newline at end of file[m
+[32m+[m[32mentendendo o head[m
+[32m+[m[32mfddsfds[m
+\ No newline at end of file[m
+[1mdiff --git a/comandos.txt b/comandos.txt[m
+[1mindex be91c83..554cb0b 100644[m
+[1m--- a/comandos.txt[m
+[1m+++ b/comandos.txt[m
+[36m@@ -17,13 +17,12 @@[m [mgit config --global core.editor "C:\Users\Erick Pereira\AppData\Local\Programs\M[m
+ git config user.name[m
+ git config user.email[m
+ git config core.editor[m
+[31m-git status[m
+[31m-[m
+[31m-Criar repositorio localF0[m
+[31m-[m
+[32m+[m[32mgit status[m[41m [m
+ [m
+[32m+[m[32mCriar repositorio local[m
+ git init[m
+ [m
+[32m+[m
+ Adiconar arquivos[m
+ git add a.txt[m
+ git add * adiciona todos arquivos na pasta[m
+[36m@@ -40,3 +39,13 @@[m [mgit log --oneline (simplificado)[m
+ git log --graph (verificar em modo grafo)[m
+ git log --oneline --graph (verificar em modo grafo simplificado)[m
+ [m
+[32m+[m[32mverificar o ramo que o projeto esta[m
+[32m+[m[32mgit branch[m
+[32m+[m
+[32m+[m[32mverificar as alteraçoes do projeto antes do commit[m
+[32m+[m[32mgit diff[m
+[32m+[m
+[32m+[m[32mvoltar em uma correção que foi commitada[m
+[32m+[m[32mgit checkout ebfea3b (hash simplificado da correção que eu quero ver)[m
+[32m+[m[32mgit checkout master (retorna a ultima versao do projeto)[m
+[32m+[m[32m git checkout a.txt (desfaz a ultima alteração)[m
+\ No newline at end of file[m
