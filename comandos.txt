@@ -26,12 +26,16 @@ git init
 Adiconar arquivos
 git add a.txt
 git add * adiciona todos arquivos na pasta
+git add .
 
 Adicionar aquivos no Contener(Commit)
 git commit -m "Criado os arquivos iniciais" Todos arquivos
 git commit -am "a.txt adicionei a linha entendendo o HEAD "
 
 Clonando repositorio
+
+Criando ramificaçoes de branch
+git checkout -b 'teste'
 
 Logs dos Commits
 git log
@@ -53,5 +57,5 @@ git diff
 
 voltar em uma correção que foi commitada
 git checkout ebfea3b (hash simplificado da correção que eu quero ver)
-git checkout master (retorna a ultima versao do projeto)
+git checkout master (retorna a branch especifica a ultima versao do projeto)
 git checkout a.txt (desfaz a ultima alteração)
